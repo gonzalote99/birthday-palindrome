@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Popoins', sans-serif;
+  margin: 2rem;
+  box-sizing: border-box;
+  background-color: #E0E0E0;
+  background-image: url('https://raw.githubusercontent.com/piyushahir28/birthdayPallindrome/main/images/back.png');
+  opacity: 0.9;
+}
+
+
+.main {
+  display: flex;
+  border: 4px solid #755139;
+  background-color: #F2EDD7;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.container h2 {
+  color: #755139;
+  font-size: 30px;
+}
+
+
+.container p {
+  color: #755139;
+  font-size: 15px;
+  justify-content: space-evenly;
+}
+
+
+.container label {
+  color: #755139;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.container input {
+  padding: 0.6rem 0.8rem;
+  margin: 0.5rem auto;
+  width: 90%;
+  max-width: 350px;
+  border: 1px solid #755139;
+  border-radius: 20px;
+}
+
+.container button {
+  font-size: 21px;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  color: #F2EDD7;
+  border: 2px solid #755139;
+  background-color: #755139;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.git-logo {
+  color: #755139;
+  font-size: 40px;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.col1 {
+  margin: 2rem 2rem 3rem 5rem;
+
+}
+
+.col2 img {
+  align-items: center;
+  width: 90%;
+  max-width: 700px;
+}
+
+.output {
+  text-align: center;
+  max-width: 420px;
+  padding-right: 1rem;
+  display: none;
+}
+
+.output p {
+  font-size: 17px;
+  font-weight: 500;
+
+}
+
+.opt {
+  margin-top: 2rem;
+  border: 2px solid #755139;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 15px 1px;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    display: block;
+  }
+  .col1 {
+    margin: 0rem 0rem 0rem 2rem;
+  }
+  body {
+    margin: 1rem;
+  }
+
+  .container input {
+    max-width: 210px;
+  }
+}
